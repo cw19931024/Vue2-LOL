@@ -1,9 +1,8 @@
 <template>
-    <div>
-        <el-input placeholder="请输入内容" v-model="name">
-          <el-button slot="append" icon="search"></el-button>
-        </el-input>
-        <el-button type="primary" >不查询直接跳过</el-button>
+    <div class="search">
+        <div>
+          <el-button type="primary" >查询角色</el-button>
+        </div>
     </div>
 </template>
 
@@ -36,5 +35,14 @@ li {
 
 a {
   color: #42b983;
+}
+.search{
+  background:url('lol.jpg')no-repeat;
+  background-size: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

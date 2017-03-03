@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/components/Index'
+import Search from '@/components/Search'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 Vue.use(Router)
@@ -11,6 +12,11 @@ export default new Router({
       path: '/index',
       name: 'index',
       component: Index
-    }
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: Search
+    },
   ]
 })
